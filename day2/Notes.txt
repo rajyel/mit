@@ -11,3 +11,10 @@ State True or false
    9. The class name and the file name can be different in java 
    10. You can run a java class  which does not have  method "public static void main" method 
    
+   
+  
+  
+  
+  1.Main difference is methods of a Java interface are implicitly abstract and cannot have implementations.
+  A Java abstract class can have instance methods that implements a default behavior. 
+  2.Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.

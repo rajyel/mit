@@ -9,5 +9,4 @@ public class Student implements University, College
 	      System.out.println("attending exam "+s);
 	  }
 	  
-	  public void checkEligibility(String s) {}
 }

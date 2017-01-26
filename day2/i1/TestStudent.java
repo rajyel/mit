@@ -5,6 +5,7 @@ public class TestStudent {
 		
 		student.attend_class("java");
 		student.attend_exam("M1");
+		
   
   
   }
