@@ -1,0 +1,13 @@
+State True or false 
+
+   1. To compile  a java program the command is javac HelloWorld.java 
+   2. To run  a java program the command is java HelloWorld.class
+   3. Java uses garbage collection to clear the not used memory
+   4. You can force garbage collection by calling system.gc()
+   5. Java api package which can be used without import is java.lang
+   6. The class java.lang.object is normal class of java api
+   7. The scanner class can be  part of java.lang package 
+   8. A class contains many different things in it 
+   9. The class name and the file name can be different in java 
+   10. You can run a java class  which does not have  method "public static void main" method 
+   
