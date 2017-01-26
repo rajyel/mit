@@ -18,3 +18,25 @@ State True or false
   1.Main difference is methods of a Java interface are implicitly abstract and cannot have implementations.
   A Java abstract class can have instance methods that implements a default behavior. 
   2.Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
+  
+There are two types of modifiers in java: access modifiers and non-access modifiers.
+The access modifiers in java specifies accessibility (scope) of a data member, method, constructor or class.
+There are 4 types of java access modifiers:
+private
+default
+protected
+public
+There are many non-access modifiers such as static, abstract, synchronized, native, volatile, transient etc. 
+
+  1) private access modifier
+    The private access modifier is accessible only within class.
+ 2) default access modifier
+  If you don't use any modifier, it is treated as default bydefault. The default modifier is accessible only within package.
+  3) protected 
+  The protected access modifier is accessible within package and outside the package but through inheritance only.
+  4) public 
+  The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+ 
+javac -cp c:\project\mit\day2\access\pack\pack1;.; pack2\B.java
+C:\projects\mit\day2\access\pack>java -cp c:\project\mit\day2\access\pack\pack1;.; pack2.B
+Hello
