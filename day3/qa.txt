@@ -1,0 +1,18 @@
+True or false 
+1. Methods in java interface have only method signature and nothing between {}
+2. You can have type of an object as interface Interface1 i = new Class();
+3. When Class implements the keyword used is Class A extends Interface1 
+4. When we call System.gc() the garbage collection is called by jvm immediately 
+5. Creating a child class, is this correct 'public class A extends B'
+6. We can have multiple super classes for a java class ' public class A extends c,d,e'
+7. The static variable loads first then the variables in a class
+8. The keyword public for access modifier means accessible only in the package
+9. The keyword private for access modifier means accessible only in the class
+10. The directory name and the package name can be different in java package   
+
+
+
+C:\projects\mit\day3>javac  -cp .;pack1\;pack2\  C.java
+
+C:\projects\mit\day3>java -cp .;pack1\;pack2\ C
+ 
